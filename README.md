@@ -1,3 +1,36 @@
+# Travel Map App 🌍
+
+An interactive map-based web application built using Angular 17 and the Google Maps JavaScript API. This app allows users to explore points of interest such as hotels, restaurants, and tourist attractions, filter them by category, and interact with markers on the map.
+
+## 🔥 Features
+
+- 🗺️ Interactive Google Map with zoom/pan
+- 📍 Dynamically loaded markers from a JSON file
+- ✅ Filter locations by category using a sidebar
+- ℹ️ Custom info windows with images and descriptions
+- 🔍 Search bar for filtering by name or type
+- 📱 Fully responsive layout (desktop & mobile)
+- 🎯 Built with Angular 17, TypeScript & Angular Material
+
+## 🧰 Tech Stack
+
+- Angular 17
+- TypeScript
+- Google Maps JavaScript API
+- Angular Material
+- SCSS
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/travel-map-app.git
+cd travel-map-app
+
+
 # AngularMapExplorer
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
