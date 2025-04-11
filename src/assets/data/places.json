@@ -1,0 +1,80 @@
+[
+  {
+    "id": "h1",
+    "name": "Grand Central Hotel",
+    "type": "hotel",
+    "position": {
+      "lat": 40.7128,
+      "lng": -74.0060
+    },
+    "description": "Luxury 5-star hotel in the heart of the city with spectacular views and world-class amenities.",
+    "imageUrl": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
+    "rating": 4.8,
+    "bookingUrl": "https://example.com/book/grand-central"
+  },
+  {
+    "id": "r1",
+    "name": "The Blue Plate",
+    "type": "restaurant",
+    "position": {
+      "lat": 40.7150,
+      "lng": -74.0080
+    },
+    "description": "Contemporary American cuisine featuring locally sourced ingredients and seasonal menus.",
+    "imageUrl": "https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg",
+    "rating": 4.5,
+    "bookingUrl": "https://example.com/book/blue-plate"
+  },
+  {
+    "id": "t1",
+    "name": "City Museum",
+    "type": "tourist",
+    "position": {
+      "lat": 40.7140,
+      "lng": -74.0020
+    },
+    "description": "Interactive museum showcasing the city's rich history through engaging exhibits.",
+    "imageUrl": "https://images.pexels.com/photos/2372978/pexels-photo-2372978.jpeg",
+    "rating": 4.6,
+    "bookingUrl": "https://example.com/tickets/city-museum"
+  },
+  {
+    "id": "h2",
+    "name": "Riverside Inn",
+    "type": "hotel",
+    "position": {
+      "lat": 40.7160,
+      "lng": -74.0040
+    },
+    "description": "Boutique hotel offering waterfront views and personalized service.",
+    "imageUrl": "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg",
+    "rating": 4.3,
+    "bookingUrl": "https://example.com/book/riverside-inn"
+  },
+  {
+    "id": "r2",
+    "name": "Sushi Master",
+    "type": "restaurant",
+    "position": {
+      "lat": 40.7120,
+      "lng": -74.0090
+    },
+    "description": "Authentic Japanese cuisine with fresh sushi and sashimi prepared by master chefs.",
+    "imageUrl": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg",
+    "rating": 4.7,
+    "bookingUrl": "https://example.com/book/sushi-master"
+  },
+  {
+    "id": "t2",
+    "name": "Botanical Gardens",
+    "type": "tourist",
+    "position": {
+      "lat": 40.7180,
+      "lng": -74.0030
+    },
+    "description": "Sprawling gardens featuring rare plants, seasonal flowers, and peaceful walking paths.",
+    "imageUrl": "https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg",
+    "rating": 4.4,
+    "bookingUrl": "https://example.com/tickets/botanical-gardens"
+  }
+]
