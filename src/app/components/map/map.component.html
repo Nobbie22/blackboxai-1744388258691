@@ -1,0 +1,57 @@
+<div class="h-full w-full">
+  <google-map
+    [center]="center"
+    [zoom]="zoom"
+    [options]="options"
+    class="w-full h-full">
+    
+    @for (place of places; track place.name) {
+      <map-marker
+        [position]="place.position"
+        [options]="getMarkerOptions(place)"
+        (mapClick)="openInfoWindow(marker, place)"
+        #marker="mapMarker">
+      </map-marker>
+    }
+
+    <map-info-window>
+      @if (selectedPlace) {
+        <div class="info-window">
+          <div class="flex flex-col gap-2 p-2 max-w-sm">
+            <h2 class="text-xl font-bold text-gray-800">{{selectedPlace.name}}</h2>
+            
+            @if (selectedPlace.imageUrl) {
+              <div class="w-full h-32 overflow-hidden rounded-lg">
+                <img [src]="selectedPlace.imageUrl" 
+                     [alt]="selectedPlace.name"
+                     class="w-full h-full object-cover">
+              </div>
+            }
+            
+            <p class="text-gray-600">{{selectedPlace.description}}</p>
+            
+            <div class="flex items-center gap-2 mt-1">
+              <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
+                {{selectedPlace.type}}
+              </span>
+              @if (selectedPlace.rating) {
+                <div class="flex items-center">
+                  <i class="fas fa-star text-yellow-400"></i>
+                  <span class="ml-1 text-gray-700">{{selectedPlace.rating}}</span>
+                </div>
+              }
+            </div>
+            
+            @if (selectedPlace.bookingUrl) {
+              <button
+                (click)="onBookNow(selectedPlace.bookingUrl)"
+                class="mt-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                Book Now
+              </button>
+            }
+          </div>
+        </div>
+      }
+    </map-info-window>
+  </google-map>
+</div>
