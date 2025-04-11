@@ -27,7 +27,7 @@ An interactive map-based web application built using Angular 17 and the Google M
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/travel-map-app.git
+git clone https://github.com/Nobbie22/travel-map.git
 cd travel-map-app
 
 
